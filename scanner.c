@@ -7,7 +7,7 @@ struct Scanner * scannerInit(const char *path, const char *source) {
 	scanner->start = source;
 	scanner->current = source;
 	scanner->line = 1;
-	scanner->columm = 1;
+	scanner->column = 1;
 	return scanner;
 }
 
