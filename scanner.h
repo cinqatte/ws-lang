@@ -11,4 +11,4 @@ struct Scanner {
 };
 
 struct Scanner * scannerInit(const char *path, const char *source);
-struct Token scannerGetToken(Scanner *scanner);
+struct Token scannerGetToken(struct Scanner *scanner);

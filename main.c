@@ -71,5 +71,5 @@ char * readFile(const char *path) {
 	
 	buffer[file_size] = '\0';
 	fclose(file);
-	return butfer;
+	return buffer;
 }

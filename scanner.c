@@ -11,6 +11,6 @@ struct Scanner * scannerInit(const char *path, const char *source) {
 	return scanner;
 }
 
-struct Token scannerGetToken(Scanner *scanner) {
+struct Token scannerGetToken(struct Scanner *scanner) {
 	
 }
