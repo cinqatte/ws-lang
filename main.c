@@ -61,7 +61,7 @@ char * readFile(const char *path) {
 		return NULL;
 	}
 	
-	if ((size_t) file_size != fread(file_size, 1L, file)) {
+	if ((size_t) file_size != fread(buffer, file_size, 1L, file)) {
 		fprintf(stderr, "ws error reading '%s'\n%s\n", path, strerror(errno));
 		fclose(file);
 		free(buffer);
